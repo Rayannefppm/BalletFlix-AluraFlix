@@ -1,0 +1,65 @@
+body {
+    background: #FADCD9; 
+    color: #fc5ae1; 
+    margin-bottom: 200px;
+    font-family: "Cookie", cursive;
+}
+header {
+    border-bottom: solid 2px #F5C6D4; /* Rosa pastel suave para a borda inferior */
+    padding: 25px;
+    font-size: 50px;
+    color: #F1A3B1; /* Rosa pastel suave para o texto */
+}
+
+.chamada {
+    background: #F9D8E5; /* Rosa pastel bem claro para o fundo da chamada */
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 20%;
+}
+
+h1 {
+    font-size: 55px;
+    color: #F1A3B1; /* Rosa pastel suave para o título */
+}
+
+p {
+    font-size: 25px;
+    color: #ffa2d5; 
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.categoria {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.categoria-videos img {
+    opacity: 0.4; 
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1;
+    border: 3px solid #F5C6D4; 
+}
+
+.categoria h2 {
+    color: #f8a5be; 
+}
+
+.categoria {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 50px;
+}
